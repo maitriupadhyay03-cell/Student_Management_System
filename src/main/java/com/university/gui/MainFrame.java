@@ -23,7 +23,7 @@ public class MainFrame extends JFrame {
         // tabbedPane.addTab("Employees", new EmployeePanel());
         // tabbedPane.addTab("Courses", new CoursePanel());
         // tabbedPane.addTab("Enrollments", new EnrollmentPanel());
-        // tabbedPane.addTab("Grades", new GradePanel());
+        tabbedPane.addTab("Grades", new GradePanel());
 
         add(tabbedPane, BorderLayout.CENTER);
         
